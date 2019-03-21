@@ -10,7 +10,7 @@ Battleships-Online is a client-server console application, which presents a game
 -  The player who is on turn chooses some **cell and shoot it**. If he hits some opponent ship's cell and that cell was **the last one**, the ship is considered as **sunk**
 - Game ends when all ships of some player are **sunk**
 
-Game's commands:
+# Game's commands:
 ```
 -  connect "username" - connects to server
 -  create-game "game-name" - creates a new game 
