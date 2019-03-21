@@ -1,8 +1,8 @@
 # Battleships-Online
 A course project for the elective discipline **"Modern Java Technologies" at FMI**
 
-# What is this ?
-Battleships-Online is an client-server console application, which presents a game between two players.
+# What is that ?
+Battleships-Online is a client-server console application, which presents a game between two players.
 -  Map's size is **10x10** 
 -  Before game starts, every player places all his ships on map horizontally or vertically
 -  Count of ships for every player is 10 (1 x **5 cells**, 2 x **4 cells**, 3 x **3 cells** and 4 x **2 cells**) 
@@ -13,8 +13,8 @@ Battleships-Online is an client-server console application, which presents a gam
 Game's commands:
 ```
 -  connect "username" - connects to server
--  create-game "game-name" - creates new game 
--  list-games - lists all current games with information about if game is started, how many players there are , etc ...
+-  create-game "game-name" - creates a new game 
+-  list-games - lists all current games with information about if game is started, how many players there are , etc...
 -  saved-games - lists all saved games
 -  save-game - saves game's state in a text file, which name is formed as: game-name_player1-name_VS_player2-name_.txt
 -  join-game "game-name" - starts "game-name" if that game exists and there is only one player. If name is missing then is joined to a random game
